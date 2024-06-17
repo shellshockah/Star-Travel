@@ -1,10 +1,23 @@
+using JetBrains.Annotations;
+using System;
+using System.Collections.Generic;
 
 
+[Serializable]
+public class ServerList
+{
+    public List<Server> servers;
+}
+
+[Serializable]
 public class Server
 {
-    private string jsonData;
+    public string name;
+    public string ip;
+    public int port;
 
-    Server() {
-        jsonData = JSONUtils.getJsonStr("../Data/Servers.json");
+    public string toString()
+    {
+        return "Server Name: " + name + "\nIP Address: " + ip + "\nPort: " + port;
     }
 }

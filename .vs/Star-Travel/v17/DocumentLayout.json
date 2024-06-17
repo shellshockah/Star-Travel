@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Star-Travel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59C57562-37CD-6CA4-293B-994CBA9E3C10}|Assembly-CSharp.csproj|D:\\Star-Travel\\assets\\utils\\fileutils\\jsonutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59C57562-37CD-6CA4-293B-994CBA9E3C10}|Assembly-CSharp.csproj|solutionrelative:assets\\utils\\fileutils\\jsonutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59C57562-37CD-6CA4-293B-994CBA9E3C10}|Assembly-CSharp.csproj|d:\\star-travel\\assets\\network\\src\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59C57562-37CD-6CA4-293B-994CBA9E3C10}|Assembly-CSharp.csproj|solutionrelative:assets\\network\\src\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59C57562-37CD-6CA4-293B-994CBA9E3C10}|Assembly-CSharp.csproj|d:\\star-travel\\assets\\network\\src\\datatypes\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59C57562-37CD-6CA4-293B-994CBA9E3C10}|Assembly-CSharp.csproj|solutionrelative:assets\\network\\src\\datatypes\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59C57562-37CD-6CA4-293B-994CBA9E3C10}|Assembly-CSharp.csproj|D:\\Star-Travel\\assets\\network\\src\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59C57562-37CD-6CA4-293B-994CBA9E3C10}|Assembly-CSharp.csproj|solutionrelative:assets\\network\\src\\networkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59C57562-37CD-6CA4-293B-994CBA9E3C10}|Assembly-CSharp.csproj|d:\\star-travel\\assets\\network\\src\\data\\servers.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{59C57562-37CD-6CA4-293B-994CBA9E3C10}|Assembly-CSharp.csproj|solutionrelative:assets\\network\\src\\data\\servers.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59C57562-37CD-6CA4-293B-994CBA9E3C10}|Assembly-CSharp.csproj|d:\\star-travel\\assets\\utils\\fileutils\\jsonutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59C57562-37CD-6CA4-293B-994CBA9E3C10}|Assembly-CSharp.csproj|solutionrelative:assets\\utils\\fileutils\\jsonutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,19 +26,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "JSONUtils.cs",
               "DocumentMoniker": "D:\\Star-Travel\\Assets\\Utils\\FileUtils\\JSONUtils.cs",
               "RelativeDocumentMoniker": "Assets\\Utils\\FileUtils\\JSONUtils.cs",
               "ToolTip": "D:\\Star-Travel\\Assets\\Utils\\FileUtils\\JSONUtils.cs",
               "RelativeToolTip": "Assets\\Utils\\FileUtils\\JSONUtils.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T14:57:11.956Z",
+              "WhenOpened": "2024-06-17T19:18:58.844Z",
               "EditorCaption": ""
             },
             {
@@ -45,22 +49,36 @@
               "RelativeDocumentMoniker": "Assets\\Network\\src\\Datatypes\\Server.cs",
               "ToolTip": "D:\\Star-Travel\\Assets\\Network\\src\\Datatypes\\Server.cs",
               "RelativeToolTip": "Assets\\Network\\src\\Datatypes\\Server.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T15:02:02.556Z",
+              "WhenOpened": "2024-06-17T18:58:21.917Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Servers.json",
+              "DocumentMoniker": "D:\\Star-Travel\\Assets\\Network\\src\\Data\\Servers.json",
+              "RelativeDocumentMoniker": "Assets\\Network\\src\\Data\\Servers.json",
+              "ToolTip": "D:\\Star-Travel\\Assets\\Network\\src\\Data\\Servers.json",
+              "RelativeToolTip": "Assets\\Network\\src\\Data\\Servers.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-17T18:54:26.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "NetworkManager.cs",
               "DocumentMoniker": "D:\\Star-Travel\\Assets\\Network\\src\\NetworkManager.cs",
               "RelativeDocumentMoniker": "Assets\\Network\\src\\NetworkManager.cs",
               "ToolTip": "D:\\Star-Travel\\Assets\\Network\\src\\NetworkManager.cs",
               "RelativeToolTip": "Assets\\Network\\src\\NetworkManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T14:42:44.444Z"
+              "WhenOpened": "2024-06-17T14:42:44.444Z",
+              "EditorCaption": ""
             }
           ]
         }
