@@ -3,13 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NetworkManager : MonoBehaviour
+public class ClientNetworkManager : MonoBehaviour
 {
-    public static NetworkManager netManager;
+    public static ClientNetworkManager netManager;
     public ServerList serverList;
 
     //Constructor
-    NetworkManager()
+    ClientNetworkManager()
     {
         getServerList();
     }
@@ -19,7 +19,7 @@ public class NetworkManager : MonoBehaviour
     {
         if(netManager == null)
         {
-            netManager = new NetworkManager();
+            netManager = new ClientNetworkManager();
         }
     }
 
@@ -30,7 +30,7 @@ public class NetworkManager : MonoBehaviour
 
     public void getServerList()
     {
-        serverList = JSONUtils.deserialize<ServerList>(JSONUtils.getJsonStr("./Assets/Network/src/Data/Servers.json"));
+        serverList = JSONUtils.deserialize<ServerList>(JSONUtils.getJsonStr("./Assets/Network/src/Client/Data/ServerList.json"));
         for(int i = 0; i < serverList.servers.Count; i++)
             Debug.Log(serverList.servers[i].toString());
     }
