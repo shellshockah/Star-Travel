@@ -4,13 +4,23 @@ using UnityEngine;
 
 public class NetworkManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public NetworkManager netManager;
+
+    //Constructor
+    NetworkManager()
     {
-        
+
     }
 
-    // Update is called once per frame
+    // MonoBehaviour Override Funcs
+    void Start()
+    {
+        if(netManager == null)
+        {
+            netManager = new NetworkManager();
+        }
+    }
+
     void Update()
     {
         
